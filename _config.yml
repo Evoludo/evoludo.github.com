@@ -18,7 +18,7 @@ url: "https://www.evoludo.com" # the base hostname & protocol for your site
 github_username:  evoludo
 
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
