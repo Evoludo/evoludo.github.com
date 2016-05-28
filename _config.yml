@@ -11,11 +11,32 @@ real_name: Andrew Bell
 domain: evoludo.com
 email: andrew@evoludo.com
 description: > # this means to ignore newlines until "baseurl:"
-  A blog about programming, audio, music, and oddly
+  A blog about audio, programming, music, and oddly
   named cats.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: "https://www.evoludo.com" # the base hostname & protocol for your site
 github_username:  evoludo
 
-# Build settings
-markdown: kramdown
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+#permalink:        pretty
+permalink:        /:slug/
+
+# Setup
+tagline:          'A Jekyll theme'
+
+author:
+  name:           'Andrew Bell'
+  url:            https://www.evoludo.com
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:           https://github.com/evoludo
+linkedin:         https://www.linkedin.com/in/evoludo
+
