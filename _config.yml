@@ -26,7 +26,7 @@ highlighter:      rouge
 permalink:        /:slug/
 
 # Setup
-tagline:          'A Jekyll theme'
+tagline:          'a blog by Andrew Bell'
 
 author:
   name:           'Andrew Bell'
