@@ -42,7 +42,7 @@ Share my posts!
 
 ### Can I contact you?
 
-I would be delighted if you did! You can contact me by e-mail at [evoludo@gmail.com][e-mail].
+I would be delighted if you did! You can contact me by e-mail at [andrew@evoludo.com][e-mail].
 
 ### Do you have a resumé?
 
