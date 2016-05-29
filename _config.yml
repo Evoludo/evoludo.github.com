@@ -41,4 +41,10 @@ github:           https://github.com/evoludo
 linkedin:         https://www.linkedin.com/in/evoludo
 
 gems:
-      - jekyll-sitemap
+    - jekyll-sitemap
+
+exclude:
+    - "Gemfile"
+    - "Gemfile.*"
+    - "CNAME"
+    - "*.sh"
