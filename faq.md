@@ -1,6 +1,7 @@
 ---
 layout: page-alt-title
 title: FAQ
+order: 2
 alt-title: Frequently Asked Quetzals
 permalink: /faq/
 ---
@@ -36,7 +37,8 @@ All code on my [GitHub account][github-account] may be used under a [GPLv3 licen
 
 ### I really enjoy reading your blog! How can I show my appreciation?
 
-Share my posts! That's all I ask.
+Share my posts!
+
 
 ### Can I contact you?
 

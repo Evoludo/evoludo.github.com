@@ -11,5 +11,21 @@
       {{ content }}
     </div>
 
+  <script type="text/javascript"> 
+    // any link that is not part of the current domain is modified 
+ 
+    (function() { 
+      var aTags = document.getElementsByTagName("a"); 
+      for (var i = 0; i < aTags.length; i++) { 
+        // can also be 
+        //  links[i].hostname != 'subdomain.example.com' 
+        if (aTags[i].hostname != window.location.hostname) { 
+          aTags[i].target = '_blank'; 
+          aTags[i].className += ' externalLink'; 
+        } 
+      } 
+    })(); 
+  </script>
+
   </body>
 </html>
