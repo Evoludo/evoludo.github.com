@@ -121,6 +121,17 @@ a.sidebar-nav-item:focus {
   }
 }
 
+.sidebar-sticky a {
+    color: rgba(255,255,255,.5);
+    margin-right: 0.1em;
+    font-size: 28px; 
+}
+
+.sidebar-sticky a:hover,
+.sidebar-sticky a:focus {
+    color: #fff;
+    text-decoration: none;
+}
 
 /* Container
  *
