@@ -52,11 +52,11 @@ Yes, you can find it [here][resume]. I also have a [LinkedIn][linkedin-account] 
 
 I'M GLAD YOU ASKED! I live with two cats: a jet black contrary menace called Dr Meowface, and a murderous psychopath in a tuxedo called Lord Kittington.
 
-![Lord Kittington][lord-kittington]
-*Lord Kittington*
-
 ![Dr Meowface][dr-meowface]
 *Dr Meowface*
+
+![Lord Kittington][lord-kittington]
+*Lord Kittington*
 
 
 [skyscanner-home]: https://www.skyscanner.net/
