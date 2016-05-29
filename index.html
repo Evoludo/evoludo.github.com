@@ -13,8 +13,17 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-categories">{{ post.categories | join: ', ' }}</span>
+    {% if post.jump != null %}
+        {% assign jump = post.jump %}
+    {% else %}
+        {% assign jump = "<!-- break -->" %}
+    {% endif %}
+    {{ post.content | split: jump | first }}
+    {% if post.content contains jump %}
+      <a class="read-more" href="{{ post.url }}">read more...</a>
+    {% endif %}
 
-    {{ post.content }}
   </div>
   {% endfor %}
 </div>
