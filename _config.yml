@@ -40,3 +40,5 @@ version:          2.1.0
 github:           https://github.com/evoludo
 linkedin:         https://www.linkedin.com/in/evoludo
 
+gems:
+      - jekyll-sitemap
