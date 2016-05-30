@@ -2,6 +2,8 @@
 
 set -e
 
+function join { local d=$1; shift; echo -n "$1"; shift; printf "%s" "${@/#/$d}"; }
+
 if [ -z "$1" ]; then
     echo -e "Usage:\n\
     $0 <title> [category1 category2 ...]" >&2
@@ -13,7 +15,7 @@ short_date=`date '+%Y-%m-%d'`
 title="$1"
 filename=`sed -e 's/[^A-Z^a-z^0-9]/-/g' <(echo "$title")`
 shift
-categories="$*"
+categories=`join '" "' "$@"`
 post_dir=_posts
 post_file=$short_date-"$filename".md
 post_path=$post_dir/$post_file
@@ -27,7 +29,7 @@ else
 layout: post
 title:  "$title"
 date: $date
-categories: $categories 
+categories: "$categories"
 ---
 
 EOF
