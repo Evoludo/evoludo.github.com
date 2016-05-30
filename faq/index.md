@@ -31,7 +31,7 @@ Only if I stop drumming.
 
 ### Do you mind if you content from your blog for something?
 
-All text and media on my blog may be used under a [Creative Commons blah blah whatever license][cc-license], unless stated otherwise.
+All text and media on my blog may be used under a [Creative Commons BY-SA 4.0][cc-license], unless stated otherwise.
 
 All code on my [GitHub account][github-account] may be used under a [GPLv3 license][gpl-license], unless stated otherwise.
 
