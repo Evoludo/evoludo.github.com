@@ -12,15 +12,38 @@ layout: default
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
+    {% assign posts_found = 0 %}
+    {% assign sorted_posts = site.posts | sort: "date" %}
+    {% for post in sorted_posts reversed %}
+      {% assign category_found = false %}
+      {% for category in page.categories %}
+        {% if post.categories contains category and post.title != page.title  %}
+          {% assign category_found = true %}
+        {% endif %}
+      {% endfor %}
+      {% if category_found == true and posts_found < 3 %}
+        <li>
+          <h3>
+            <a href="{{ post.url }}">
+              {{ post.title }}
+               <small>{{ post.date | date_to_string }}
+                 <div class="related-categories">
+                   <em>{{ post.categories | join: ', ' }}</em>
+                 </div>
+               </small>
+             </a>
+           </h3>
+         </li>
+        {% assign posts_found = posts_found | plus: 1 %}
+      {% endif %}
+
+    {% endfor %}
+    {% if posts_found == 0 %}
       <li>
         <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
+          <em>None</em>
         </h3>
       </li>
-    {% endfor %}
+    {% endif %}
   </ul>
 </div>

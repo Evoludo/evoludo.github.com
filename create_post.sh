@@ -34,4 +34,4 @@ EOF
 fi
 
 
-vim + $post_path
+vim + +startinsert $post_path

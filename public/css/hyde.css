@@ -59,6 +59,11 @@ a.read-more {
     font-style: italic;
 }
 
+.related-categories {
+    margin-top: 0rem;
+    margin-bottom: 0.8rem;
+    font-weight: normal;
+}
 
 /*
  * Sidebar
