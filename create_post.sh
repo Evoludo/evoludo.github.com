@@ -30,6 +30,7 @@ layout: post
 title:  "$title"
 date: $date
 categories: ["$categories"]
+author: Andrew Bell
 ---
 
 EOF
