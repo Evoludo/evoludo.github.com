@@ -39,7 +39,6 @@ All code on my [GitHub account][github-account] may be used under a [GPLv3 licen
 
 Share my posts!
 
-
 ### Can I contact you?
 
 I would be delighted if you did! You can contact me by e-mail at [andrew@evoludo.com][e-mail].
