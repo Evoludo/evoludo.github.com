@@ -23,7 +23,7 @@ highlighter:      rouge
 
 # Permalinks
 #permalink:        pretty
-permalink:        /:slug/
+permalink:        /posts/:slug/
 
 # Setup
 tagline:          'a blog by Andrew Bell'
